@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis001/MyBatis001.iml" filepath="$PROJECT_DIR$/../MyBatis001/MyBatis001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis002Anno/MyBatis002Anno.iml" filepath="$PROJECT_DIR$/../MyBatis002Anno/MyBatis002Anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis003impl/MyBatis003impl.iml" filepath="$PROJECT_DIR$/../MyBatis003impl/MyBatis003impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis101DIY/MyBatis101DIY.iml" filepath="$PROJECT_DIR$/../MyBatis101DIY/MyBatis101DIY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis102DIYAnno/MyBatis102DIYAnno.iml" filepath="$PROJECT_DIR$/../MyBatis102DIYAnno/MyBatis102DIYAnno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis201CRUD/MyBatis201CRUD.iml" filepath="$PROJECT_DIR$/../MyBatis201CRUD/MyBatis201CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis202Dao/MyBatis202Dao.iml" filepath="$PROJECT_DIR$/../MyBatis202Dao/MyBatis202Dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis301pool/MyBatis301pool.iml" filepath="$PROJECT_DIR$/../MyBatis301pool/MyBatis301pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis401IF/MyBatis401IF.iml" filepath="$PROJECT_DIR$/../MyBatis401IF/MyBatis401IF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis501tables/MyBatis501tables.iml" filepath="$PROJECT_DIR$/../MyBatis501tables/MyBatis501tables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis502tables/MyBatis502tables.iml" filepath="$PROJECT_DIR$/../MyBatis502tables/MyBatis502tables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis601JNDI/MyBatis601JNDI.iml" filepath="$PROJECT_DIR$/../MyBatis601JNDI/MyBatis601JNDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis701Lazy/MyBatis701Lazy.iml" filepath="$PROJECT_DIR$/../MyBatis701Lazy/MyBatis701Lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis801Cache/MyBatis801Cache.iml" filepath="$PROJECT_DIR$/../MyBatis801Cache/MyBatis801Cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis901Anno/MyBatis901Anno.iml" filepath="$PROJECT_DIR$/../MyBatis901Anno/MyBatis901Anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyBatis902AnnoTables/MyBatis902AnnoTables.iml" filepath="$PROJECT_DIR$/../MyBatis902AnnoTables/MyBatis902AnnoTables.iml" />
+    </modules>
+  </component>
+</project>

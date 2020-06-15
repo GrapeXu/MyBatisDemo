@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.learn.dao.UserDao"><!-- UserDao接口的全限定类名 -->
+
+    <!-- 配置 查询结果的列名 和 实体类的属性名 的对应关系 -->
+    <resultMap id="userMap" type="com.learn.domain.User">
+        <!-- property类中属性名 column数据库列名  -->
+        <!-- 主键字段的对应 -->
+        <id property="id" column="id"></id>
+        <!-- 非主键字段的对应 -->
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+    </resultMap>
+
+    <!-- 配置查询所有 id是方法名 -->
+    <select id="findAll" resultType="com.learn.domain.User"><!-- 实体类 全限定类名 封装成啥 -->
+        <!-- SQL语句 -->
+        select * from user;
+    </select>
+
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="com.learn.domain.User"> <!-- 参数类型 -->
+        <!-- 配置插入操作后，获取插入数据的id -->
+        <!--                        数据库         -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+
+        <!-- #{getXxx 的xxx} -->
+        insert into user(username, address, sex, birthday)
+        values(#{username},#{address},#{sex},#{birthday});
+    </insert>
+
+    <!-- 更新用户 -->
+    <update id="updateUser" parameterType="com.learn.domain.User">
+        update user set username=#{username}, address=#{address}, sex=#{sex}, birthday=#{birthday}
+        where id=#{id}
+    </update>
+
+    <!-- 删除用户 -->
+    <delete id="deleteUser" parameterType="Integer"><!-- int INT Integer INTEGER java.lang.Integer -->
+        <!-- 只有一个参数 写什么都可以 -->
+        delete from user
+        where id = #{userIdiddoukeyi}
+    </delete>
+
+    <!-- 根据id查询用户 -->
+    <select id="findById" parameterType="int" resultType="com.learn.domain.User">
+        select * from user
+        where id = #{suibianxie}
+    </select>
+    
+    <!-- 根据名称模糊查询 -->
+    <select id="findByName" parameterType="string" resultType="com.learn.domain.User">
+        <!-- 只支持这种注释 -->
+        <!-- 预处理方式 %调用时传 这里 这好像不能加  -->
+        <!-- select * from user
+        where username like #{usernamesuibianxie} -->
+
+        <!-- 字符串拼接 这里接收的值 必须写value 源码写死了 '${}' #{} -->
+        select * from user
+        where username like '%${value}%'
+    </select>
+
+    <!-- 根据QueryVo的条件查询用户 -->
+    <select id="findUserByVo" parameterType="com.learn.domain.QueryVo" resultType="com.learn.domain.User">
+        select * from user where username like #{user.username}
+    </select>
+
+    <!-- 获取用户总记录条数 -->
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+</mapper>

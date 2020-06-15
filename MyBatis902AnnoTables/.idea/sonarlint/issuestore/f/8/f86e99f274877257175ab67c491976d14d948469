@@ -1,0 +1,11 @@
+
+]squid:UselessImportCheck"2Remove this unused import 'com.learn.dao.UserDao'.(­…şÙ8ÉÕ¤¤.
+jsquid:S00112 "FDefine and throw a dedicated exception instead of using a generic one.(¼şàÌÿÿÿÿÿ8úúÓ¤¤.
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Âé’ùÿÿÿÿ8è§Û¤¤.
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(¦ÔøÊ8òÆå¤¤.
+ysquid:S1450"VRemove the "factory" field and declare it as a local variable in the relevant methods.(Ä³¿şşÿÿÿÿ8úúÓ¤¤.
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ØÛˆøÿÿÿÿ8úúÓ¤¤.
+V
+squid:S106,"9Replace this use of System.out or System.err by a logger.(İÀ°ë8ÌÄæ¤¤.

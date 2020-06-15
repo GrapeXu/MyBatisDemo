@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyBatis801Cache" />
+        <module name="MyBatis101DIY" />
+        <module name="MyBatis701Lazy" />
+        <module name="MyBatis001" />
+        <module name="MyBatis901Anno" />
+        <module name="MyBatis202Dao" />
+        <module name="MyBatis601JNDI" />
+        <module name="MyBatis003impl" />
+        <module name="MyBatis502tables" />
+        <module name="MyBatis301pool" />
+        <module name="MyBatis902AnnoTables" />
+        <module name="MyBatis002Anno" />
+        <module name="MyBatis102DIYAnno" />
+        <module name="MyBatis201CRUD" />
+        <module name="MyBatis501tables" />
+        <module name="MyBatis401IF" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyBatis001" target="1.5" />
+      <module name="MyBatis002Anno" target="1.5" />
+      <module name="MyBatis003impl" target="1.5" />
+      <module name="MyBatis101DIY" target="1.5" />
+      <module name="MyBatis102DIYAnno" target="1.5" />
+      <module name="MyBatis201CRUD" target="1.5" />
+      <module name="MyBatis202Dao" target="1.5" />
+      <module name="MyBatis301pool" target="1.5" />
+      <module name="MyBatis401IF" target="1.5" />
+      <module name="MyBatis501tables" target="1.5" />
+      <module name="MyBatis502tables" target="1.5" />
+      <module name="MyBatis601JNDI" target="1.7" />
+      <module name="MyBatis701Lazy" target="1.5" />
+      <module name="MyBatis801Cache" target="1.5" />
+      <module name="MyBatis901Anno" target="1.5" />
+      <module name="MyBatis902AnnoTables" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

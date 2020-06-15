@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../MyBatis601JNDI" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../MyBatis001/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis002Anno/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis003impl/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis101DIY/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis102DIYAnno/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis201CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis202Dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis301pool/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis401IF/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis501tables/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis502tables/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis601JNDI/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis701Lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis801Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis901Anno/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatis902AnnoTables/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

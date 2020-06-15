@@ -1,0 +1,11 @@
+
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(Šì£½
+?squid:S1148o"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+csquid:S00112j"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+nsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(…éñûÿÿÿÿ8¥ª€‚£.
+]squid:S2259 "@A "NullPointerException" could be thrown; "in" is nullable here.(€¶º‡ýÿÿÿÿ
+dsquid:S00112ž"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+bsquid:S11927"FDefine a constant instead of duplicating this literal "value" 4 times.(½ýØ„üÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ÇôŒ•ÿÿÿÿÿ
+osquid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(áæéýÿÿÿÿ8›á‚£.
